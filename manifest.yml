@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BluemixTrial000
+  host: BluemixTrial000
+  disk_quota: 1024M
+  services:
+  - BluemixTrial000-cloudantNoSQLDB
+  - BluemixTrial000-iotf-service
